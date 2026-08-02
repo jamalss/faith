@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faith &amp; Light | Grow in Scripture, Hope, and Grace</title>
+<meta name="description" content="A premium, interactive home for exploring faith — the promises, blessings, works, and examples of Scripture, presented with beauty and clarity.">
+<link rel="canonical" href="https://www.example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Faith & Light | Grow in Scripture, Hope, and Grace">
+<meta property="og:description" content="A premium, interactive home for exploring faith — the promises, blessings, works, and examples of Scripture.">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:url" content="https://www.example.com/">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Faith & Light | Grow in Scripture, Hope, and Grace">
+<meta name="twitter:description" content="A premium, interactive home for exploring faith — the promises, blessings, works, and examples of Scripture.">
+<meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+<!-- Structured data placeholder -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Faith & Light",
+  "url": "https://www.example.com/",
+  "description": "A premium, interactive home for exploring faith through Scripture."
+}
+</script>
+
+<!-- Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<!-- Site styles -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Skip link for accessibility -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- Reading progress bar -->
+<div class="progress-bar-fixed" id="readingProgress" aria-hidden="true"></div>
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+<header>
+  <nav class="site-nav" id="siteNav" aria-label="Primary">
+    <div class="nav-inner">
+      <a href="index.html" class="brand" aria-label="Faith and Light, home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <path d="M14 2 L16.2 10.4 L24.8 11.5 L17.9 16.9 L20 25.3 L14 20.2 L8 25.3 L10.1 16.9 L3.2 11.5 L11.8 10.4 Z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">Faith <em>&amp;</em> Light</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="promises.html">Promises</a></li>
+        <li><a href="blessings.html">Blessings</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="examples.html">Great Faith</a></li>
+        <li><a href="prayer.html">Prayer</a></li>
+        <li><a href="search.html">Search</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <i class="bi bi-moon-stars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main-content">
+
+  <!-- =========================================================
+       HERO
+  ========================================================= -->
+  <section class="hero" aria-label="Introduction">
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    <div class="hero-gradient" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">A quiet place to grow</p>
+      <h1 class="hero-title">Faith is the light<br> that meets you in the dark.</h1>
+      <p class="hero-subtitle">
+        A place to slow down, open Scripture, and remember who holds you.
+        No pressure. No performance. Just the promises of God, presented
+        with the care they deserve.
+      </p>
+      <div class="hero-actions">
+        <a href="#featured-sections" class="btn btn-hero-primary">Explore Faith</a>
+        <a href="#featured-scripture" class="btn btn-hero-secondary">Today's Verse</a>
+      </div>
+    </div>
+
+    <a href="#introduction" class="scroll-indicator" aria-label="Scroll to next section">
+      <span class="scroll-dot"></span>
+    </a>
+  </section>
+
+  <!-- =========================================================
+       INTRODUCTION
+  ========================================================= -->
+  <section class="introduction" id="introduction">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-6 fade-in-up">
+          <p class="section-eyebrow">What Is Faith</p>
+          <h2 class="section-title">Not a feeling you conjure. <br>A trust you're invited into.</h2>
+          <p class="section-body">
+            Scripture describes faith as confidence in what we hope for
+            and assurance about what we cannot yet see. It isn't blind
+            optimism, and it isn't naïve. It's a settled trust, built one
+            promise at a time, that God is who He says He is — even when
+            life says otherwise.
+          </p>
+          <p class="section-body">
+            This site exists to help you build that trust: through the
+            promises God has made, the blessings faith unlocks, the works
+            faith produces, and the lives of those who walked this road
+            before you.
+          </p>
+          <a href="promises.html" class="btn btn-outline-gold">Begin with the Promises</a>
+        </div>
+        <div class="col-lg-6 fade-in-up" data-delay="1">
+          <div class="illustration-frame" role="img" aria-label="Sunrise over still water, a picture of quiet trust">
+            <div class="illustration-sunrise"></div>
+            <div class="illustration-water"></div>
+            <blockquote class="illustration-verse">
+              "Now faith is confidence in what we hope for and assurance
+              about what we do not see."
+              <cite>Hebrews 11:1</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FEATURED SECTIONS
+  ========================================================= -->
+  <section class="featured-sections" id="featured-sections">
+    <div class="container">
+      <p class="section-eyebrow text-center">Explore</p>
+      <h2 class="section-title text-center">Four ways into Scripture</h2>
+      <p class="section-body text-center mx-auto section-lead">
+        Each collection stands on its own. Together, they form a complete
+        picture of what it means to live by faith.
+      </p>
+
+      <div class="row g-4 mt-2">
+
+        <div class="col-md-6 col-lg-3 fade-in-up" data-delay="0">
+          <article class="feature-card">
+            <div class="feature-icon"><i class="bi bi-envelope-heart" aria-hidden="true"></i></div>
+            <h3 class="feature-title">Promises of Faith</h3>
+            <p class="feature-desc">The commitments God has made to those who trust Him.</p>
+            <span class="feature-count" data-count="10">10 Promises</span>
+            <a href="promises.html" class="feature-link">Read the Promises <i class="bi bi-arrow-right"></i></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-3 fade-in-up" data-delay="1">
+          <article class="feature-card">
+            <div class="feature-icon"><i class="bi bi-stars" aria-hidden="true"></i></div>
+            <h3 class="feature-title">Blessings of Faith</h3>
+            <p class="feature-desc">The good that flows into a life anchored in trust.</p>
+            <span class="feature-count" data-count="28">28 Blessings</span>
+            <a href="blessings.html" class="feature-link">Read the Blessings <i class="bi bi-arrow-right"></i></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-3 fade-in-up" data-delay="2">
+          <article class="feature-card">
+            <div class="feature-icon"><i class="bi bi-hand-index-thumb" aria-hidden="true"></i></div>
+            <h3 class="feature-title">Works of Faith</h3>
+            <p class="feature-desc">What faith looks like in motion — how it's lived out.</p>
+            <span class="feature-count" data-count="17">17 Works</span>
+            <a href="works.html" class="feature-link">Read the Works <i class="bi bi-arrow-right"></i></a>
+          </article>
+        </div>
+
+        <div class="col-md-6 col-lg-3 fade-in-up" data-delay="3">
+          <article class="feature-card">
+            <div class="feature-icon"><i class="bi bi-shield-check" aria-hidden="true"></i></div>
+            <h3 class="feature-title">Examples of Great Faith</h3>
+            <p class="feature-desc">Ordinary people who trusted God in extraordinary ways.</p>
+            <span class="feature-count">Read the Stories</span>
+            <a href="examples.html" class="feature-link">Meet Them <i class="bi bi-arrow-right"></i></a>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FEATURED SCRIPTURE
+  ========================================================= -->
+  <section class="featured-scripture" id="featured-scripture">
+    <div class="container">
+      <div class="scripture-card fade-in-up">
+        <p class="section-eyebrow">Today's Verse</p>
+        <blockquote class="scripture-text" id="scriptureText">
+          "For I know the plans I have for you," declares the Lord,
+          "plans to prosper you and not to harm you, plans to give you
+          hope and a future."
+        </blockquote>
+        <cite class="scripture-ref" id="scriptureRef">Jeremiah 29:11</cite>
+        <p class="scripture-thought" id="scriptureThought">
+          Even in seasons that feel uncertain, this is a promise you can
+          stand on: God's plans for you are good, and He hasn't lost
+          sight of your future.
+        </p>
+
+        <div class="scripture-actions">
+          <a href="#" class="scripture-btn" id="btnContext">
+            <i class="bi bi-book" aria-hidden="true"></i> Read Context
+          </a>
+          <button type="button" class="scripture-btn" id="btnReflect">
+            <i class="bi bi-lightbulb" aria-hidden="true"></i> Reflect
+          </button>
+          <button type="button" class="scripture-btn" id="btnShare">
+            <i class="bi bi-share" aria-hidden="true"></i> Share
+          </button>
+          <button type="button" class="scripture-btn" id="btnCopy">
+            <i class="bi bi-clipboard" aria-hidden="true"></i> Copy Verse
+          </button>
+          <button type="button" class="scripture-btn scripture-btn-bookmark" id="btnBookmark" aria-pressed="false">
+            <i class="bi bi-bookmark" aria-hidden="true"></i> <span>Bookmark</span>
+          </button>
+        </div>
+
+        <p class="reflect-panel" id="reflectPanel" hidden>
+          Take a slow breath. Where in your life right now do you need to
+          believe this is still true? Name it — even silently — and let
+          this verse sit with you for a moment before you move on.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       DAILY ENCOURAGEMENT
+  ========================================================= -->
+  <section class="daily-encouragement">
+    <div class="container">
+      <div class="encouragement-panel fade-in-up">
+        <p class="section-eyebrow">Daily Encouragement</p>
+        <h2 class="section-title">Need a word for today?</h2>
+        <p class="section-body">One tap. One verse. Exactly what today asks for.</p>
+
+        <button type="button" class="btn btn-hero-primary" id="btnEncourage">
+          <i class="bi bi-sunrise" aria-hidden="true"></i> Give Me a Verse
+        </button>
+
+        <div class="encouragement-result" id="encouragementResult" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FAITH QUOTE
+  ========================================================= -->
+  <section class="faith-quote">
+    <div class="container">
+      <blockquote class="faith-quote-text fade-in-up">
+        "Faith is not the belief that God will do what you want.
+        It is the belief that God will do what is right."
+      </blockquote>
+      <p class="faith-quote-source">— A reflection on trust</p>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SEARCH PREVIEW
+  ========================================================= -->
+  <section class="search-preview" id="search">
+    <div class="container">
+      <p class="section-eyebrow text-center">Coming Soon</p>
+      <h2 class="section-title text-center">Search all of Scripture's promises</h2>
+      <p class="section-body text-center mx-auto section-lead">
+        A preview of what's ahead — try searching a word like
+        <em>peace</em>, <em>fear</em>, or <em>strength</em>.
+      </p>
+
+      <div class="search-box fade-in-up">
+        <i class="bi bi-search" aria-hidden="true"></i>
+        <input
+          type="search"
+          id="previewSearch"
+          placeholder="Search by word or theme…"
+          aria-label="Search preview — search sample verses by word or theme">
+      </div>
+
+      <ul class="search-results" id="searchResults" aria-live="polite"></ul>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CALL TO ACTION
+  ========================================================= -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-panel fade-in-up">
+        <h2 class="cta-title">Your next step is already written.</h2>
+        <p class="cta-body">Keep going. There's more to discover — and more of God's character waiting in it.</p>
+        <a href="promises.html" class="btn btn-cta">Continue Exploring <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <a href="index.html" class="brand footer-brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
+              <path d="M14 2 L16.2 10.4 L24.8 11.5 L17.9 16.9 L20 25.3 L14 20.2 L8 25.3 L10.1 16.9 L3.2 11.5 L11.8 10.4 Z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">Faith <em>&amp;</em> Light</span>
+        </a>
+        <p class="footer-tagline">A quiet place to grow in Scripture, one promise at a time.</p>
+      </div>
+
+      <div class="col-lg-2 col-6">
+        <h3 class="footer-heading">Explore</h3>
+        <ul class="footer-links">
+          <li><a href="promises.html">Promises</a></li>
+          <li><a href="blessings.html">Blessings</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="examples.html">Great Faith</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6">
+        <h3 class="footer-heading">Grow</h3>
+        <ul class="footer-links">
+          <li><a href="prayer.html">Prayer</a></li>
+          <li><a href="peace.html">Peace</a></li>
+          <li><a href="wisdom.html">Wisdom</a></li>
+          <li><a href="salvation.html">Salvation</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4">
+        <h3 class="footer-heading">Verse of the Day</h3>
+        <p class="footer-verse" id="footerVerse">"The Lord is my shepherd; I shall not want." — Psalm 23:1</p>
+        <div class="footer-social" aria-label="Social links">
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube"><i class="bi bi-youtube" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="footerYear"></span> Faith &amp; Light. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="bi bi-arrow-up" aria-hidden="true"></i>
+</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
