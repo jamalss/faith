@@ -53,6 +53,21 @@
   max-width: 560px;
   margin: 0 auto;
 }
+.page-hero-subtitle.is-quote {
+  font-family: var(--font-verse);
+  font-style: italic;
+}
+.hero-subtitle-ref {
+  display: block;
+  margin-top: 0.75rem;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
 
 .breadcrumb-trail {
   font-size: 0.82rem;
@@ -83,6 +98,32 @@
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
 }
+
+/* Grouped content sections (e.g. Blessings, grouped by theme) */
+.content-group {
+  margin-bottom: 4rem;
+}
+.content-group:last-child { margin-bottom: 0; }
+.content-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--color-gold-soft);
+}
+.content-group-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.content-group-count {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-hope-blue);
+}
+.content-group.is-empty { display: none; }
 
 .promise-card {
   background: var(--color-card);
